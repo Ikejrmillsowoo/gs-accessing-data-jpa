@@ -14,6 +14,8 @@ public class Customer {
     private String firstName;
     private String lastName;
 
+    protected Customer(){}
+
     protected Customer(String firstName, String lastName){
         this.firstName = firstName;
         this.lastName = lastName;
